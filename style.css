@@ -1,0 +1,43 @@
+body {
+    background-color: red;
+}
+.container {
+    width: 100%;
+    background-color: red;
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content;
+    margin: auto
+  }
+  
+  .button-group {
+    text-align: center;
+  }
+  
+  .button-group button {
+    margin: 0 5px;
+  }
+  
+  .icon-group {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+  }
+  
+  .icon-link img {
+   width: auto; 
+   height: auto; 
+   cursor:pointer;
+  }
+  .container {
+    width: 100%;
+    background-color: red;
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content;
+    margin: auto
+  }
+  .calculation {
+    text-align: center;
+}

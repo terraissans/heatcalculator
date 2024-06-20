@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Celcius Fahrenheit</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="celsiusInput">Celsius (°C):</label>
+        <input type="text" id="celsiusInput" name="celsius">
+        <button id="convert" onclick="convertToFahrenheit()">Konversi</button>
+        <button id="reset" onclick="resetForm()">Reset</button>
+        <button id="reverse" onclick="convertToCelsius()">Reverse</button>
+        <label for="fahrenheitInput">Fahrenheit (°F):</label>
+        <input type="text" id="fahrenheitInput" name="fahrenheit">
+    </div>
+    <div class="icon-group">
+        <a href="javascript:void(0);" onclick="document.getElementById('convert').click()" class="icon-link">
+            <img src="D:\NANDA\AI Pict\th (1).jpg" alt="Celsius to Fahrenheit">
+        </a>
+        <a href="javascript:void(0);" onclick="document.getElementById('reset').click()" class="icon-link">
+            <img src="D:\NANDA\AI Pict\th (3).jpg" alt="Reset">
+        </a>
+        <a href="javascript:void(0);" onclick="document.getElementById('reverse').click()" class="icon-link">
+            <img src="D:\NANDA\AI Pict\th.jpg" alt="Fahrenheit to Celsius">
+        </a>
+        
+    </div>
+    <script src="js/script.js"></script>
+    <div class="calculation">
+        <p id="calculationMethod"></p>
+    </div>
+</body>
+</html>
